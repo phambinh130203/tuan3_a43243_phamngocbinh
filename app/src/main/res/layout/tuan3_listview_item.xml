@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layoutDescription="@xml/tuan3_listview_item_scene"
+     android:orientation="horizontal">
+
+    <ImageView
+        android:src="@color/cardview_shadow_start_color"
+        android:id="@+id/t3ItemHinh"
+        android:layout_width="94dp"
+        android:layout_height="94dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:text= "Ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t3ItemTen"/>
+        <TextView
+            android:text= "Tuoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t3ItemTuoi"/>
+        </LinearLayout>
+
+
+</LinearLayout>
